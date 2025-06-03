@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #777;
+  }
+  
+  main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .post {
+    background: #f4f4f4;
+    padding: 15px;
+    border-left: 5px solid #2196f3;
+  }
+  
+  @media (max-width: 600px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+  }
+  

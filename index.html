@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Categories</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Blog</h1>
+    <nav>
+      <button onclick="filterPosts('all')">All</button>
+      <button onclick="filterPosts('technology')">Technology</button>
+      <button onclick="filterPosts('health')">Health</button>
+      <button onclick="filterPosts('travel')">Travel</button>
+    </nav>
+  </header>
+
+  <main id="blog-posts">
+    <article class="post technology">
+      <h2>Latest Tech Trends</h2>
+      <p>Exploring AI and future innovations.</p>
+    </article>
+    <article class="post health">
+      <h2>Healthy Living Tips</h2>
+      <p>How to maintain a balanced lifestyle.</p>
+    </article>
+    <article class="post travel">
+      <h2>Top 5 Travel Destinations</h2>
+      <p>Where to go this year for adventure.</p>
+    </article>
+    <article class="post technology">
+      <h2>Building with JavaScript</h2>
+      <p>A guide for beginners.</p>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
