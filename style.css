@@ -47,4 +47,44 @@ body {
       grid-template-columns: 1fr;
     }
   }
-  
+  .footer {
+  background-color: #222;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
